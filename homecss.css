@@ -1,0 +1,123 @@
+.Logo {
+	text-align: center;
+}
+.Encabezado {
+	margin-top: -26px;
+    margin-left: -8px;
+	background-color: #000000;
+	color: white;
+	width: 100%;
+}
+.texto1 {
+    text-align: center;
+    font-size: x-large;
+    margin: auto;
+}
+button {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #000000;
+    box-shadow: 0 5px #212529;
+}
+button:hover {
+    box-shadow: 0 3px #212529;
+    top: 1px;
+}
+button:active {
+    box-shadow: 0 0 #212529;
+    top: 5px;
+}
+.Principio {
+    display: grid;
+}
+.VideoT {
+    display: flex;
+}
+.derecha {
+    display: flex;
+}
+body {
+    background-color: #ffffff;
+    width: 100%;
+    position:fixed;
+    z-index: 100;
+}
+.Galeria {
+	display: flex;
+	background-color: #ffffff;
+    margin-left: -8px;
+}
+p {
+	text-align: center;
+	font-size:large;
+}
+nav {
+    float:left;
+}
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    margin-left: 20px; 
+}
+nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 25px;
+    margin-left: 150px;
+}
+.ubicacion {
+    font-size: x-large;
+}
+nav ul li a {
+    display: block; 
+    padding: 25px;
+    color: #000000;
+    text-decoration: none;
+}
+nav ul li:hover {
+    background: #949494;
+    mar
+}
+#loop {
+    margin-top: 10px;
+    height: 600px;
+    margin-left: 80px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: groove;
+    border-
+}
+.footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: -8px;
+}
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+}
+
+#backToTop:hover {
+    background-color: #1d1d1d;
+}

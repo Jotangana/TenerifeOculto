@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Informacion oculta de tenerife"/>
+    <meta name="robots" content="index,follow"/>
+    <title>Tenerife Oculto</title>
+    <link rel="stylesheet" href="homecss.css">
+    <script>
+    const paginas = [
+            'PlayaPatos.html',
+            'AcantiladosGigantes.html',
+            'Benijo.html',
+            'Tejita.html',
+            'Abrigos.html',
+            'zapata.html',
+            'Aguaide.html',
+            'cherfe.html',
+            'laguna.html',
+        ];
+
+        function irAPaginaAleatoria() {
+            const indiceAleatorio = Math.floor(Math.random() * paginas.length);
+            window.location.href = paginas[indiceAleatorio];
+        }
+        function goToHome() {
+        window.location.href = "HomeTO.html";
+        }
+    </script>
+</head>
+<body>
+    <div class="Encabezado">
+        <p>Cuida cada rincon de la isla como si fuera tu casa. La conservación de la fauna y flora es labor de todos y todas.</p>
+    </div>
+        <div class="Galeria">
+            <div class="Logo">
+                <a href="HomeTO.html"><img src="Logo.png" id="LogoTO"></a>
+            </div>
+        <nav>
+                <ul>
+                    <li><a href="Comofunciona.html">¿Como funciona?</a></li>
+                    <li><a href="https://www.eltiempo.es/santa-cruz-de-tenerife.html" target="_blank" >El tiempo</a></li>
+                    <li><a href="https://www.instagram.com/ocultoentenerife/" target="_blank">Instagram</a></li>
+                    <li><a href="Opiniones.html">Opiniones</a></li>
+                </ul>
+        </nav>
+        </div>
+    <hr/><br><br><br>
+    <div class="Galeria">
+        <div class="video">
+                <video class="elementor-video" src="https://cdn.pixabay.com/video/2020/02/19/32606-393989992_large.mp4#t=3" id="loop" autoplay="" loop="" muted="muted" playsinline="" controlslist="nodownload"></video>
+        </div>
+        <div class="texto1">
+            <h1>Santa Cruz de Tenerife</h1>
+            <p><b>Tenerife</b> es una isla llena de lugares de ensueño. Rincones de Tenerife que los viajeros<br> corrientes no suelen visitar, porque muchos lugares no están incluidos<br> en las <b>principales recomendaciones de viaje</b>.
+
+                Queremos mostrarte algunos de los <b>secretos mejor conservados de la isla</b> y podemos asegurarte que vale la pena visitarlos.</p><br>
+                <p>Presiona el botón para descubrir una ubicación oculta,<br> la cual te aseguramos que disfrutaras al maximo.</p>
+                <button onclick="irAPaginaAleatoria()">Ubicación Oculta Aleatoria</button>
+        </div>
+    </div><br>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 TenerifeOculto. Todos los derechos reservados.</p>
+        </div>
+        <a href="HomeTO.html" id="backToTop" onclick="goToHome()">Volver al inicio</a>
+    </footer>
+</body>
+</html>
